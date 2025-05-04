@@ -14,7 +14,7 @@ A full-stack web application for managing users and points, with role-based auth
 ## 📁 Project Structure
 
 ```
-/client      → React frontend
+/     → React frontend
 /server      → Node.js + Express backend
 ```
 
@@ -45,7 +45,7 @@ A full-stack web application for managing users and points, with role-based auth
 - **Backend**: Node.js, Express
 - **Database**: MongoDB (Mongoose)
 - **Authentication**: JWT
-- **Hosting**: GCP preferred (Render fallback)
+- **Hosting**: Render 
 
 ---
 
@@ -61,9 +61,6 @@ A full-stack web application for managing users and points, with role-based auth
 ```bash
 cd server
 npm install
-# Create .env file with:
-# MONGO_URI=<your_mongo_connection_string>
-# JWT_SECRET=<your_jwt_secret>
 npm run dev
 ```
 
@@ -87,8 +84,7 @@ Frontend runs on: `http://localhost:5173`
 
 - Push code to GitHub
 - Deploy backend with:
-  - Google Cloud App Engine
-  - Or Render
+  - Render
 - Set environment variables:
   - `MONGO_URI`
   - `JWT_SECRET`
@@ -100,8 +96,6 @@ Frontend runs on: `http://localhost:5173`
   npm run build
   ```
 - Deploy with:
-  - Firebase Hosting
-  - GCP Cloud Storage
   - Netlify or Vercel
 
 Make sure `backendURL` in your frontend points to your deployed backend.
