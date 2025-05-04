@@ -23,8 +23,8 @@ app.use('/api/profile', profileUpdate);
 app.use('/api/credits', creditRoutes);
 
 
-app.get('/',()=>{
-    res.send("App is Running...")
+app.get('/',(req,res)=> {
+    res.send('Welcom to VertxAI...');
 })
 
 
