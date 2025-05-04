@@ -6,8 +6,8 @@ A full-stack web application for managing users and points, with role-based auth
 
 ## 🌐 Live Demo
 
-🔗 [Live Deployed App](https://creator-seven-chi.vercel.app/)  
-(Hosted on **Google Cloud Platform** or [Render](https://creator-vr5k.onrender.com))
+🔗 [Live Deployed App](https://your-live-url.com)  
+(Hosted on **Google Cloud Platform** or [Render](https://render.com))
 
 ---
 
@@ -119,22 +119,20 @@ Make sure `backendURL` in your frontend points to your deployed backend.
 
 ---
 
-## 🧪 Sample User Credentials
-
-```plaintext
-Email: user@example.com
-Password: User123
-```
-
 ## 🧪 Sample Admin Credentials
 
 ```plaintext
 Email: admin@example.com
-Password: Admin123
+Password: Admin123!
 ```
 
 (You can manually mark a user as admin in the database)
 
 ---
 
+## 📬 Contact
 
+For issues, please open an issue on [GitHub](https://github.com/your-repo/issues)  
+Or reach out at: `youremail@example.com`
+
+---
