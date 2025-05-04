@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { jwtDecode } from 'jwt-decode';
 import { useNavigate } from 'react-router-dom';
 
-const backendURL = 'http://localhost:4000'; 
+const backendURL = 'https://creator-vr5k.onrender.com'; 
 
 const FeedAggregator = () => {
   const [userId, setUserId] = useState(null);

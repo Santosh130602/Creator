@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {jwtDecode} from 'jwt-decode'; 
-const backendURL = 'http://localhost:4000'; 
+const backendURL = 'https://creator-vr5k.onrender.com'; 
 
 const PointsContent = () => {
   const [points, setPoints] = useState(null); 

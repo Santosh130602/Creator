@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const backendURL = 'http://localhost:4000';
+const backendURL = 'https://creator-vr5k.onrender.com';
 
 const AdminUserList = () => {
   const [users, setUsers] = useState([]);
